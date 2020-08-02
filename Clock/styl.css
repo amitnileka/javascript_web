@@ -14,7 +14,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #fff;
+    background:   url('clock.png');
+    background-color: #fff;
+    background-size: cover;
     border-radius: 50%;
     box-shadow: inset 0 0 30px rgba(0,0,0,0.1),
                  0 20px 20px rgba(0,0,0,0.2),
@@ -29,9 +31,7 @@ body{
     position: absolute;
     width: 15px;
     height: 15px;
-   background:   url('clock.png');
-    background-color: #fff;
-    background-size: cover;
+    background: #848484;
     border: 2px solid #fff;
     z-index: 100000;
     border-radius: 50%;
@@ -108,4 +108,6 @@ body{
     border-radius: 6px 6px 0 0;
     
 }
+
+
 
